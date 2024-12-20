@@ -1,0 +1,92 @@
+.container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: linear-gradient(135deg, #ffffff, #f7f8fc);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-header p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+  }
+  
+  .field-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .field-value {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .input-field,
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .input-field:focus,
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  button.edit {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button.edit:hover {
+    background-color: #0056b3;
+  }
+  
+  button.save {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button.save:hover {
+    background-color: #1e7e34;
+  }
+  
